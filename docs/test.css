@@ -1,5 +1,3 @@
-/*$primary: #ee0979 !default;
-$secondary: #ff6a00 !default;*/
 body {
   font-family: "Lato";
 }
@@ -53,7 +51,7 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(0deg, #e5ff00 0%, #ff0000 100%);
+  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -73,7 +71,7 @@ header.masthead .bg-circle {
   z-index: 0;
   position: absolute;
   border-radius: 100%;
-  background: linear-gradient(0deg, #ff0000 0%, #e5ff00 100%);
+  background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
 }
 header.masthead .bg-circle-1 {
   height: 90rem;
@@ -113,31 +111,31 @@ header.masthead .bg-circle-4 {
   }
 }
 .bg-primary {
-  background-color: #ff0000 !important;
+  background-color: #ee0979 !important;
 }
 
 .btn-primary {
-  background-color: #ff0000;
-  border-color: #ff0000;
+  background-color: #ee0979;
+  border-color: #ee0979;
 }
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #cc0000 !important;
-  border-color: #cc0000 !important;
+  background-color: #bd0760 !important;
+  border-color: #bd0760 !important;
 }
 .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
 }
 
 .btn-secondary {
-  background-color: #e5ff00;
-  border-color: #e5ff00;
+  background-color: #ff6a00;
+  border-color: #ff6a00;
 }
 .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
-  background-color: #b7cc00 !important;
-  border-color: #b7cc00 !important;
+  background-color: #cc5500 !important;
+  border-color: #cc5500 !important;
 }
 .btn-secondary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(229, 255, 0, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
 }
 
-/*# sourceMappingURL=one-page-wonder.css.map */
+/*# sourceMappingURL=test.css.map */
