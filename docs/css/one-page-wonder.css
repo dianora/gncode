@@ -112,6 +112,23 @@ header.masthead .bg-circle-4 {
     font-size: 4rem;
   }
 }
+header.gncode-header {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 0px);
+  padding-bottom: 7rem;
+}
+header.gncode-header .gncode-header-content {
+  z-index: 1;
+  position: relative;
+}
+header.gncode-header .gncode-header-content .gncode-header-heading {
+  font-size: 4rem;
+}
+header.gncode-header .gncode-header-content .gncode-header-subheading {
+  font-size: 2rem;
+}
+
 .bg-primary {
   background-color: #ff0000 !important;
 }

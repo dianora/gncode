@@ -1,0 +1,18 @@
+header.gncode-header {
+    position: relative;
+    overflow: hidden;
+    padding-top: calc(7rem + 0px);
+    padding-bottom: 7rem;
+
+    .gncode-header-content {
+      z-index: 1;
+      position: relative;
+      .gncode-header-heading {
+        font-size: 4rem;
+      }
+      .gncode-header-subheading {
+        font-size: 2rem;
+      }
+    }
+    
+  }
