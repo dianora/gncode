@@ -129,6 +129,10 @@ header.gncode-header .gncode-header-content .gncode-header-subheading {
   font-size: 2rem;
 }
 
+img.profile-picture1 {
+  width: 300px;
+}
+
 .bg-primary {
   background-color: #ff0000 !important;
 }
