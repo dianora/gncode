@@ -1,0 +1,41 @@
+{% extends "master.html" %}
+
+
+{% block head %}
+<header class="gncode-header">
+    <div class="gncode-header-content">
+      <div class="container">
+        <h1 class="gncode-header-heading">GNCode dans les news</h1>
+      </div>
+    </div>
+  </header>
+{% endblock %}
+
+
+{% block body %}
+<section>
+    <div class="container">
+
+      <div class="row">
+          <div class="col-12">
+            <h3>2019-12-28 Espace TV</h3>
+          </div>
+
+          <div class="col-4">
+            <p>
+                Couverture de Espace TV sur la session de Décembre à Fria.
+            </p>
+          </div>
+
+          <div class="col-8">
+              <div class="embed-responsive embed-responsive-16by9">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/ycOVbnqFnX4?start=506&end=686" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+          </div>
+      </div>
+
+
+    </div>
+</section>
+
+{% endblock %}

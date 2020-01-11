@@ -1,72 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "master.html" %}
 
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154447004-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-154447004-1');
-  </script>
-  
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>
+{% block title %}
 Session Fria 2019
- - GNCode</title>
+{% endblock %}
 
-  <!-- Bootstrap core CSS -->
-  <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="/css/one-page-wonder.min.css" rel="stylesheet">
-
-</head>
-
-<body>
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
-    <div class="container">
-      <!-- <a class="navbar-brand" href="/">GNCode</a> -->
-      <a class="navbar-brand" href="/index.html">
-        <img src="/img/gncode_logo.png" style="height: 40px;"/>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-
-          <li class="nav-item">
-            <a class="nav-link" href="/sessions/fria1219/profiles/candidates.html">Sessions</a>
-          </li>
-          
-          <li class="nav-item">
-            <a class="nav-link" href="/news.html">News</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="#">A propos</a>
-          </li>
-          
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  
+{% block head %}
 <header class="gncode-header">
     <div class="gncode-header-content">
       <div class="container">
@@ -74,10 +12,9 @@ Session Fria 2019
       </div>
     </div>
   </header>
+{% endblock %}
 
-
-
-  
+{% block body %}
 <section>
   <div class="container">
     <div class="row align-items-center">
@@ -163,7 +100,7 @@ Session Fria 2019
                 <th scope="row">1</th>
                 <!--<td>TBIEN</td>-->
                 <td>10265</td>
-                <td><a href="delphine_maoro_beavogui.html">Delphine Maoro Beavogui</a></td>
+                <td><a href="profiles/delphine_maoro_beavogui.html">Delphine Maoro Beavogui</a></td>
                 <td>Josip Broz Tito</td>
               </tr>
               
@@ -171,7 +108,7 @@ Session Fria 2019
                 <th scope="row">2</th>
                 <!--<td>BIEN</td>-->
                 <td>10105</td>
-                <td><a href="salematou_drame.html">Salematou Drame</a></td>
+                <td><a href="profiles/salematou_drame.html">Salématou Dramé</a></td>
                 <td>Amílcar Cabral</td>
               </tr>
               
@@ -179,7 +116,7 @@ Session Fria 2019
                 <th scope="row">3</th>
                 <!--<td>BIEN</td>-->
                 <td>9076</td>
-                <td><a href="tokpa_beavogui.html">Tokpa Beavogui</a></td>
+                <td><a href="profiles/tokpa_beavogui.html">Tokpa Beavogui</a></td>
                 <td>Christ Roi</td>
               </tr>
 
@@ -187,7 +124,7 @@ Session Fria 2019
                 <th scope="row">4</th>
                 <!--<td>BIEN</td>-->
                 <td>10 388</td>
-                <td><a href="mamadou_bobo_sow.html">Mamadou Bobo Sow</a></td>
+                <td><a href="profiles/mamadou_bobo_sow.html">Mamadou Bobo Sow</a></td>
                 <td>Josip Broz Tito</td>
               </tr>
 
@@ -195,7 +132,7 @@ Session Fria 2019
                 <th scope="row">5</th>
                 <!--<td>BIEN</td>-->
                 <td>10 359</td>
-                <td><a href="lucien_pelebo_louamou.html">Lucien Pelebo Louamou</a></td>
+                <td><a href="profiles/lucien_pelebo_louamou.html">Lucien Pelebo Louamou</a></td>
                 <td>Josip Broz Tito</td>
               </tr>
 
@@ -203,7 +140,7 @@ Session Fria 2019
                 <th scope="row">6</th>
                 <!--<td>ABIEN</td>-->
                 <td>9 837</td>
-                <td><a href="koly_haba.html">Koly Haba</a></td>
+                <td><a href="profiles/koly_haba.html">Koly Haba</a></td>
                 <td>Amílcar Cabral</td>
               </tr>
 
@@ -211,7 +148,7 @@ Session Fria 2019
                 <th scope="row">7</th>
                 <!--<td>ABIEN</td>-->
                 <td>10 398</td>
-                <td><a href="mamadou_pathe_bah.html">Mamadou Pathé Bah</a></td>
+                <td><a href="profiles/mamadou_pathe_bah.html">Mamadou Pathé Bah</a></td>
                 <td>Josip Broz Tito</td>
               </tr>
 
@@ -219,7 +156,7 @@ Session Fria 2019
                 <th scope="row">8</th>
                 <!--<td>ABIEN</td>-->
                 <td>10 338</td>
-                <td><a href="kadiatou_bah.html">Kadiatou Bah</a></td>
+                <td><a href="profiles/kadiatou_bah.html">Kadiatou Bah</a></td>
                 <td>Josip Broz Tito</td>
               </tr>
 
@@ -227,7 +164,7 @@ Session Fria 2019
                 <th scope="row">9</th>
                 <!--<td>ABIEN</td>-->
                 <td>10 258</td>
-                <td><a href="chris_adoukonou.html">Chris Adoukonou</a></td>
+                <td><a href="profiles/chris_adoukonou.html">Chris Adoukonou</a></td>
                 <td>Josip Broz Tito</td>
               </tr>
 
@@ -235,7 +172,7 @@ Session Fria 2019
                 <th scope="row">10</th>
                 <!--<td>ABIEN</td>-->
                 <td>10 250</td>
-                <td><a href="boubacar_koundouno.html">Boubacar Koundouno</a></td>
+                <td><a href="profiles/boubacar_koundouno.html">Boubacar Koundouno</a></td>
                 <td>Josip Broz Tito</td>
               </tr>
           
@@ -248,25 +185,4 @@ Session Fria 2019
     </div>
   </div>
 </section>
-
-
-<br />
-
-
-
-  <!-- Footer -->
-  <footer class="py-5 bg-black">
-    <div class="container">
-      <p class="m-0 text-center text-white small">Copyright &copy; gncode.org 2019</p>
-    </div>
-    <!-- /.container -->
-  </footer>
-
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="/vendor/jquery/jquery.min.js"></script>
-  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-</body>
-
-</html>
+{% endblock %}
