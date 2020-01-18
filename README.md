@@ -1,6 +1,6 @@
 # gncode.org website
 ## Structure
-- `tempates`: Page templates
+- `tempates`: HTML page templates (with Jinga2 templating language)
 - `docs`: Compiled templates  and static web content
 - `requirements.txt`: Python dependencies
 - `compile.py`: Compiles the website
