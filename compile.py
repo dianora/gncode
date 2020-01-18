@@ -13,9 +13,10 @@ def render_templates():
 
     for template_file in Path(config['template_base_dir']).rglob("*.html"):
         template_relative_path = template_file.relative_to(config['template_base_dir'])
+        input_path = Path(config['template_base_dir']) / template_relative_path # for logging only
         output_path = Path(config['html_base_dir']) / template_relative_path
 
-        print(f'Compiling {template_relative_path} to {output_path}')
+        print(f'Compiling {input_path} to {output_path}')
    
         template = environment.get_template(str(template_relative_path))
 
