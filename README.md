@@ -10,15 +10,16 @@ Python virtual environments are recommended  when working with this repository. 
 ```
 python3.6 -m venv .venv36
 ```
-And then activate it with
+, and then activate it with:
 ```
 source .venv36/bin/activate
 ```
 
-You may install the required python dependencies with
+. You may install the required python dependencies with:
 ```
 pip install -r requirements.txt
 ```
+.
 
 ## Compiling the website
 This site uses Jinja2 templates. The  following script compiles all templates under `templates`, and generate corresponding html files under `docs`.
