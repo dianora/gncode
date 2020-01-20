@@ -18,7 +18,7 @@ def render_templates():
 
         print(f'Compiling {input_path} to {output_path}')
    
-        template = environment.get_template(str(template_relative_path))
+        template = environment.get_template(str(template_relative_path.as_posix()))
 
         # generer le texte du template
         rendered_template_text = template.render()
