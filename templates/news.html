@@ -6,7 +6,7 @@
 <header class="gncode-header">
     <div class="gncode-header-content">
       <div class="container">
-        <h1 class="gncode-header-heading">GNCode dans les news</h1>
+        <h1 class="gncode-header-heading">{% trans trimmed %}GNCode dans les news{% endtrans%}</h1>
       </div>
     </div>
   </header>
@@ -24,7 +24,11 @@
 
           <div class="col-4">
             <p>
-                Couverture de Espace TV sur la session de Décembre à Fria.
+              {% trans trimmed %}
+                Couverture de Espace TV sur la session de formation
+                'Initiation à la programmation et au langage Java'
+                qui a eu lieu à Fria en Décembre 2019.
+              {% endtrans %}
             </p>
           </div>
 

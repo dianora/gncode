@@ -1,0 +1,425 @@
+# English translations for GNCode.org.
+# Copyright (C) 2020 GNCode
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <doumbouya.moussa@gmail.com>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: doumbouya.moussa@gmail.com\n"
+"POT-Creation-Date: 2020-02-11 13:47+0000\n"
+"PO-Revision-Date: 2020-02-10 12:15+0000\n"
+"Last-Translator: FULL NAME <doumbouya.moussa@gmail.com>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: templates/about.html:3 templates/about.html:9
+msgid "A propos de GNCode"
+msgstr "About GNCode"
+
+#: templates/about.html:25
+msgid "Vision"
+msgstr "Vision"
+
+#: templates/about.html:27
+msgid ""
+"Transformer la Guinée en une nation qui participe à la révolution "
+"numérique de manière productive, responsable et bénéfique pour le "
+"développement humain, social et économique."
+msgstr ""
+"To transform Guinea into a nation that participates in the digital "
+"revolution in ways that are  productive, responsible and beneficial for "
+"human, social and economic development."
+
+#: templates/about.html:35
+msgid "Mission"
+msgstr "Mission"
+
+#: templates/about.html:37
+msgid ""
+"Préparer les Guinéens à confronter les défis et à saisir les opportunités"
+" inhérentes à la révolution numérique."
+msgstr ""
+"To prepare Guineans to face the challenges and seize the opportunities "
+"inherent in the digital revolution."
+
+#: templates/about.html:47
+msgid "Stratégie"
+msgstr "Strategy"
+
+#: templates/about.html:54
+msgid ""
+"Augmenter la disponibilité et le niveau des compétences informatiques en "
+"Guinée"
+msgstr "Increase the availability and levels of computer science skills in Guinea"
+
+#: templates/about.html:64
+msgid ""
+"Développer des curriculums d'enseignements de l'informatique adaptés aux "
+"different niveaux académiques et professionnels en Guinée."
+msgstr ""
+"Develop computer science teaching curriculua adapted to various academic "
+"and professional levels in Guinea."
+
+#: templates/about.html:70
+msgid ""
+"Organiser des campagnes de formation en informatique pour des élèves, "
+"étudiants, enseignants et professionels."
+msgstr ""
+"Organize computer science teaching campaigns for students, teachers and "
+"professionals."
+
+#: templates/about.html:76
+msgid "Promouvoir l'enseignement de l'informatique dès le plus jeune âge."
+msgstr "Promote the teaching of computer science from an early age."
+
+#: templates/about.html:81
+msgid ""
+"Servir d'appui à l'adoption des programmes d'enseignement de "
+"l'informatique par les écoles, les universités et les centres "
+"professionnels."
+msgstr ""
+"Provide support for the adoption of computer science education programs "
+"by schools, universities and professional centers."
+
+#: templates/about.html:97
+msgid "Rendre les outils d'apprentissage informatique omniprésents."
+msgstr "Make computer science learning tools ubiquitous."
+
+#: templates/about.html:110
+msgid ""
+"Créer et exploiter des centres d'apprentissage GNCodePark dans chaque "
+"préfecture de Guinée."
+msgstr ""
+"Create and operate GNCodePark learning centers in each prefecture of "
+"Guinea."
+
+#: templates/about.html:115
+msgid ""
+"Développer des solutions pour outils d'apprentissage adaptés au contexte "
+"guinéen et servir d'appui à leur adoption."
+msgstr ""
+"Develop solutions for learning tools adapted to the Guinean context and "
+"support their adoption."
+
+#: templates/about.html:131
+msgid "Encourager l'utilisation productive et bénéfique des outils technologiques"
+msgstr "Encourage the productive and beneficial use of technology"
+
+#: templates/about.html:144
+msgid ""
+"Sensibiliser les Guinéens aux opportunités et défis liés aux tendances "
+"technologiques."
+msgstr ""
+"Sensitize Guineans to the opportunities and pitfalls linked to "
+"technological trends."
+
+#: templates/about.html:149
+msgid ""
+"Promouvoir les outils technologiques contribuant positivement au "
+"développement humain, social et économique en Guinée."
+msgstr ""
+"Promote technological tools contributing positively to human, social and "
+"economic development in Guinea."
+
+#: templates/about.html:154
+msgid ""
+"Conseiller les autorités guinéennes dans la mise en œuvre des politiques "
+"liées aux technologies de l'information."
+msgstr ""
+"Advise Guinean authorities in the implementation of policies related to "
+"information technology."
+
+#: templates/about.html:171
+msgid "Développer le secteur technologique en Guinée"
+msgstr "Develop the technology sector in Guinea"
+
+#: templates/about.html:184
+msgid "Créer de l'emploi dans le secteur technologique."
+msgstr "Create jobs in the technology sector."
+
+#: templates/about.html:189
+msgid "Créer des centres d'incubation d'entreprises technologiques."
+msgstr "Create tech startup incubators."
+
+#: templates/about.html:194
+msgid ""
+"Inspirer les entrepreneurs guinéens à créer des produits et services "
+"technologiques valeureux pour la Guinée, pour l'Afrique et pour le monde "
+"entier."
+msgstr ""
+"Inspire Guinean entrepreneurs to create valuable technological products "
+"and services for Guinea, for Africa and for the whole world."
+
+#: templates/about.html:211
+msgid ""
+"Permettre des interactions naturelles avec des produits technologiques en"
+" langues guinéennes"
+msgstr ""
+"Enable natural interactions with technological products in Guinean "
+"languages"
+
+#: templates/about.html:224
+msgid ""
+"Conduire des projets de recherche dans le domaine du traitement "
+"automatique des langues guinéennes et africaines."
+msgstr ""
+"Conduct research projects in the area of Natural Language Processing of "
+"Guinean and African languages."
+
+#: templates/about.html:229
+msgid ""
+"Créer des solutions qui permettent des interactions naturelles avec des "
+"systèmes intelligents dans les langues guinéennes."
+msgstr ""
+"Create solutions that allow natural interactions with intelligent systems"
+" in Guinean languages."
+
+#: templates/about.html:234
+msgid ""
+"Combler le fossé entre l'analphabétisme et l'accès à l'information et aux"
+" produits et services technologiques."
+msgstr ""
+"Bridge the gap between illiteracy and access to information and "
+"technological products and services."
+
+#: templates/about.html:239
+msgid "Utilisez la technologie pour réduire l'analphabétisme."
+msgstr "Use technology to reduce illiteracy."
+
+#: templates/about.html:254
+msgid "Entreprendre des collaborations synergiques"
+msgstr "Undertake synergistic collaborations"
+
+#: templates/about.html:267
+msgid ""
+"Entreprendre des projets joints avec des organisations qui ont des "
+"missions compatibles avec celles de GNCode."
+msgstr ""
+"Undertake joint projects with organizations whose missions are compatible"
+" with those of GNCode."
+
+#: templates/index.html:4
+msgid "Accueil"
+msgstr "Home"
+
+#: templates/index.html:12
+msgid "Préparer les Guinéens pour la révolution numérique."
+msgstr "Prepare Guineans for the digital revolution."
+
+#: templates/index.html:14
+msgid "Sessions et Candidats"
+msgstr "Sessions and Candidates"
+
+#: templates/index.html:37
+msgid "Saisir l'opportunité technologique"
+msgstr "Seizing the technological opportunity"
+
+#: templates/index.html:38
+msgid ""
+"Notre objectif est de préparer la future génération d'informaticiens "
+"Guinéens prête à confronter les défis et à saisir les opportunités "
+"inhérentes au futur hautement technologique auquel nous sommes "
+"inévitablement destinés."
+msgstr ""
+"Our objective is to prepare the future generation of Guinean computer "
+"scientists and professionals ready to take up the challenges and seize "
+"the opportunities inherent in the highly technological future for which "
+"Guinea is inevitably destined."
+
+#: templates/index.html:56
+msgid "Apprendre à programmer"
+msgstr "Learning to code"
+
+#: templates/index.html:58
+msgid ""
+"Nos programmes de formation incluent des curriculums tels que <a "
+"href=\"https://guinea.csbridge.org/fr/index.html\">CSBridge</a>, un "
+"excellent curriculum d'initiation à la programmation informatique basé "
+"sur des techniques pédagogiques utilisées a l'université de Stanford "
+"depuis plus de 20 ans."
+msgstr ""
+"Our training programs include curricula such as <a "
+"href=\"https://guinea.csbridge.org/fr/index.html\">CSBridge</a>, an "
+"excellent introductory computer programming curriculum based on "
+"pedagogical techniques that have been used at Stanford University for "
+"over 20 years."
+
+#: templates/index.html:80
+msgid "En voie vers une Guinée plus productive et technologique"
+msgstr "Towards a more productive and technological Guinea"
+
+#: templates/index.html:82
+msgid ""
+"Dans les années qui suivent, nous voudrons: Intensifier l'éducation en "
+"informatique en Guinée, construire et faire fonctionner des centres "
+"d'apprentissage dans toutes les préfectures de la Guinée, et former des "
+"enseignants, des élèves et des professionels prêts pour le marché de "
+"l'emploi."
+msgstr ""
+"In the following years, we want to: Intensify computer education in "
+"Guinea, build and operate learning centers in all the prefectures of "
+"Guinea, and train teachers, students and professionals ready for the job "
+"market."
+
+#: templates/master.html:51
+msgid "Sessions"
+msgstr "Sessions"
+
+#: templates/master.html:55
+msgid "News"
+msgstr "News"
+
+#: templates/master.html:59
+msgid "A propos"
+msgstr "About"
+
+#: templates/news.html:9
+msgid "GNCode dans les news"
+msgstr "GNCode in the news"
+
+#: templates/news.html:27
+msgid ""
+"Couverture de Espace TV sur la session de formation 'Initiation à la "
+"programmation et au langage Java' qui a eu lieu à Fria en Décembre 2019."
+msgstr ""
+"Coverage of Espace TV on the training session 'Introduction to "
+"programming and the Java language' which took place in Fria in December "
+"2019."
+
+#: templates/sessions/fria1219/index.html:4
+msgid "Session Fria 2019"
+msgstr "Fria 2019 Coding Camp"
+
+#: templates/sessions/fria1219/index.html:13
+msgid "Fria Décembre 2019"
+msgstr "Fria December 2019"
+
+#: templates/sessions/fria1219/index.html:27
+msgid "Initiation a la programmation informatique et au langage Java"
+msgstr "Introduction to programming and the Java language"
+
+#: templates/sessions/fria1219/index.html:29
+msgid ""
+"La session pilote de GNCode s'est tenue à Fria du 9 au 28 Décembre 2019 "
+"dans notre centre de formation au seins du Groupe Scholaire Afrique Unie,"
+" et a compris des élèves venant des lycées Josip Broz Tito, Amílcar "
+"Cabral et Christ Roi. La sélection a été faite en fonction des "
+"résultats du BEPC 2019, et la rétention en fonction de la "
+"disponibilité et du degré d'intérêt des élèves invités."
+msgstr ""
+"The GNCode pilot session was held in Fria from December 9th to December "
+"28th, 2019 in our training center within the 'Groupe Scolaire Afrique "
+"Unie' school, and included students from the Josip Broz Tito, Amílcar "
+"Cabral and Christ Roi high schools. The selection was made based on the "
+"results of the BEPC 2019, and the retention based on the availability and"
+" level of interest of the invited students."
+
+#: templates/sessions/fria1219/index.html:43
+msgid "Programme"
+msgstr "Curriculum"
+
+#: templates/sessions/fria1219/index.html:47
+msgid "Dates"
+msgstr "Dates"
+
+#: templates/sessions/fria1219/index.html:48
+msgid "Heures"
+msgstr "Times"
+
+#: templates/sessions/fria1219/index.html:49
+msgid "Agenda"
+msgstr "Agenda"
+
+#: templates/sessions/fria1219/index.html:54
+msgid "09 - 13 Décembre 2019"
+msgstr "December 9th - 13th  2019"
+
+#: templates/sessions/fria1219/index.html:55
+#: templates/sessions/fria1219/index.html:76
+msgid "16h - 18h"
+msgstr "4PM - 6PM"
+
+#: templates/sessions/fria1219/index.html:57
+msgid "Préparations Préliminaires"
+msgstr "Preliminary preparations"
+
+#: templates/sessions/fria1219/index.html:58
+msgid ""
+"Introduction au système de fichier Windows; Daclylographie; Edition et "
+"indentation de texte; Introduction à la programmation via <a "
+"href=\"https://code.org/minecraft\">Hour of code minecraft</a>"
+msgstr ""
+"Introduction to the Windows file system; Typping; Text editing and "
+"indentation; Introduction to programming via <a "
+"href=\"https://code.org/minecraft\">Hour of code minecraft</a>"
+
+#: templates/sessions/fria1219/index.html:64
+msgid "16 - 28 Décembre 2019"
+msgstr "December 16th - 28th 2019"
+
+#: templates/sessions/fria1219/index.html:65
+msgid "08h - 18h"
+msgstr "8AM - 6PM"
+
+#: templates/sessions/fria1219/index.html:68
+msgid ""
+"Programmation en Java (<a href=\"https://guinea.csbridge.org\" "
+"target=\"_blank\">CSBridge</a>)"
+msgstr ""
+
+#: templates/sessions/fria1219/index.html:69
+msgid ""
+"Le programme CSBridge inspire la prochaine génération d'informaticiens en"
+" aidant les jeunes à découvrir la joie et l'utilité de la programmation "
+"informatique. Il est basé sur des méthodologies d'enseignement de "
+"l'informatique utilisées à l'Université de Stanford depuis plus de 20 "
+"ans. Il est organisé dans différentes villes et universités du monde "
+"entier et a déjà été utilisé pour enseigner les bases de la programmation"
+" à des milliers de lycéens. Pour plus d'informations sur le programme "
+"CSBridge, visitez https://guinea.csbridge.org."
+msgstr ""
+"The CSBridge program inspires the next generation of computer scientists "
+"by helping young people discover the joy and value of computer "
+"programming. It is based on computer science teaching methodologies that "
+"have been used at Stanford University for over 20 years. It is organized "
+"in different cities and universities around the world and has already "
+"been used to teach the basics of programming to thousands of high school "
+"students. For more information on the CSBridge program, visit "
+"https://guinea.csbridge.org."
+
+#: templates/sessions/fria1219/index.html:75
+msgid "07 Janvier 2020"
+msgstr "January 7th 2020"
+
+#: templates/sessions/fria1219/index.html:79
+msgid "Cérémonie de remise des certificats de fin de formation"
+msgstr "Certificate ceremony"
+
+#: templates/sessions/fria1219/index.html:83
+msgid ""
+"Présentations des élèves participants; Présentations des formateurs; "
+"Remise des certificats."
+msgstr "Student presentations; Instructor Presentations; Certificate ceremony."
+
+#: templates/sessions/fria1219/index.html:100
+msgid "Elèves participants"
+msgstr "Participating students"
+
+#: templates/sessions/fria1219/index.html:107
+msgid "PV"
+msgstr "BEPC ID"
+
+#: templates/sessions/fria1219/index.html:108
+msgid "Prénom et nom"
+msgstr "First and last name"
+
+#: templates/sessions/fria1219/index.html:109
+msgid "Lycée"
+msgstr "High School"
+

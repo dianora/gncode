@@ -1,22 +1,95 @@
-{% extends "master.html" %}
+<!DOCTYPE html>
+<html lang="en">
 
-{% block title %}
-{% trans trimmed %}
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154447004-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-154447004-1');
+  </script>
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>
 Session Fria 2019
-{% endtrans %}
-{% endblock %}
+ - GNCode</title>
 
-{% block head %}
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="/css/one-page-wonder.min.css?v=20200209-03" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+    <div class="container">
+      <!-- <a class="navbar-brand" href="/">GNCode</a> -->
+      <a class="navbar-brand" href="/fr/index.html">
+        <img src="/img/gncode_logo.png" style="height: 40px;"/>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="/fr/sessions/fria1219/index.html">Sessions</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/fr/news.html">News</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/fr/about.html">A propos</a>
+          </li>
+
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img style="height: 20px;" src="/img/language_icon/wimimedia_lang_grey.png" />
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" data-gncode-lang='fr'>Français</a>
+              <a class="dropdown-item" data-gncode-lang='en'>English</a>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  
 <header class="gncode-header">
     <div class="gncode-header-content">
       <div class="container">
-        <h1 class="gncode-header-heading">{% trans trimmed %}Fria Décembre 2019{% endtrans %}</h1>
+        <h1 class="gncode-header-heading">Fria Décembre 2019</h1>
       </div>
     </div>
   </header>
-{% endblock %}
 
-{% block body %}
+
+
+  
 <section>
   <div class="container">
     <div class="row align-items-center">
@@ -24,13 +97,9 @@ Session Fria 2019
      
       <div class="col-lg-12">
         <div class="p-5">
-          <h2 class="gncode-header-subheading">{% trans trimmed %}Initiation a la programmation informatique et au langage Java{% endtrans %}</h2>
+          <h2 class="gncode-header-subheading">Initiation a la programmation informatique et au langage Java</h2>
           <p>
-            {%trans trimmed %}
-            La session pilote de GNCode s'est tenue à Fria du 9 au 28 Décembre 2019 dans notre centre de formation au seins du Groupe Scholaire Afrique Unie, 
-            et a compris des élèves venant des lycées Josip Broz Tito, Amílcar Cabral et Christ Roi. La sélection a 
-            été faite en fonction des résultats du BEPC 2019, et la rétention en fonction de la disponibilité et du degré d'intérêt des élèves invités. 
-            {% endtrans %}
+            La session pilote de GNCode s'est tenue à Fria du 9 au 28 Décembre 2019 dans notre centre de formation au seins du Groupe Scholaire Afrique Unie, et a compris des élèves venant des lycées Josip Broz Tito, Amílcar Cabral et Christ Roi. La sélection a été faite en fonction des résultats du BEPC 2019, et la rétention en fonction de la disponibilité et du degré d'intérêt des élèves invités.
           </p>
 
           <img src="/img/gncode_fria_19/fria19_session_group_photo_100px.png" class="img-fluid" alt="Responsive image">
@@ -40,49 +109,41 @@ Session Fria 2019
 
       <div class="col-lg-12">
           <div class="p-5">
-            <h2 class="gncode-header-subheading">{% trans trimmed %}Programme{% endtrans %}</h2>
+            <h2 class="gncode-header-subheading">Programme</h2>
             <table class="table table-striped">
               <thead>
                 <tr>
-                  <th scope="col" class="text-center">{% trans trimmed%}Dates{% endtrans %}</th>
-                  <th scope="col" class="text-center">{% trans trimmed%}Heures{% endtrans %}</th>
-                  <th scope="col" class="text-center" style="width: 60%;">{% trans trimmed%}Agenda{% endtrans %}</th>
+                  <th scope="col" class="text-center">Dates</th>
+                  <th scope="col" class="text-center">Heures</th>
+                  <th scope="col" class="text-center" style="width: 60%;">Agenda</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <th class="text-right" class="col-2">{% trans trimmed %}09 - 13 Décembre 2019{% endtrans %}</th>
-                  <td>{% trans trimmed %}16h - 18h{% endtrans %}</td>
+                  <th class="text-right" class="col-2">09 - 13 Décembre 2019</th>
+                  <td>16h - 18h</td>
                   <td>
-                    <strong>{% trans trimmed %}Préparations Préliminaires{% endtrans %}</strong> <br />
-                    {% trans trimmed %}
+                    <strong>Préparations Préliminaires</strong> <br />
                     Introduction au système de fichier Windows; Daclylographie; Edition et indentation de texte; Introduction à la programmation via <a href="https://code.org/minecraft">Hour of code minecraft</a>
-                    {% endtrans %}
                   </td>
                 </tr>
                 <tr>
-                  <th class="text-right">{% trans trimmed %}16 - 28 Décembre 2019{% endtrans %}</th>
-                  <td>{% trans trimmed %}08h - 18h{% endtrans %}</td>
+                  <th class="text-right">16 - 28 Décembre 2019</th>
+                  <td>08h - 18h</td>
                   <td>
                     <strong>
-                    {% trans trimmed %}Programmation en Java (<a href="https://guinea.csbridge.org" target="_blank">CSBridge</a>){% endtrans %}</strong> <br/>
-                    {% trans trimmed %}
+                    Programmation en Java (<a href="https://guinea.csbridge.org" target="_blank">CSBridge</a>)</strong> <br/>
                     Le programme CSBridge inspire la prochaine génération d'informaticiens en aidant les jeunes à découvrir la joie et l'utilité de la programmation informatique. Il est basé sur des méthodologies d'enseignement de l'informatique utilisées à l'Université de Stanford depuis plus de 20 ans. Il est organisé dans différentes villes et universités du monde entier et a déjà été utilisé pour enseigner les bases de la programmation à des milliers de lycéens. Pour plus d'informations sur le programme CSBridge, visitez https://guinea.csbridge.org.
-                    {% endtrans %}
                   </td>
                 </tr>
                 <tr>
-                  <th class="text-right">{% trans trimmed %}07 Janvier 2020{% endtrans %}</th>
-                  <td>{% trans trimmed %}16h - 18h{% endtrans %}</td>
+                  <th class="text-right">07 Janvier 2020</th>
+                  <td>16h - 18h</td>
                   <td>
                     <strong>
-                      {% trans trimmed %}
                       Cérémonie de remise des certificats de fin de formation
-                      {% endtrans %}
                     </strong> <br />
-                    {% trans trimmed %}
                     Présentations des élèves participants; Présentations des formateurs; Remise des certificats.
-                    {% endtrans %}
                   </td>
                 </tr>
               </tbody>
@@ -97,16 +158,16 @@ Session Fria 2019
       <div class="col-lg-12">
 
         <div class="p-5">
-          <h2 class="gncode-header-subheading">{% trans trimmed %}Elèves participants{% endtrans %}</h2>
+          <h2 class="gncode-header-subheading">Elèves participants</h2>
           
           <table class="table table-striped table-hover">
             <thead>
               <tr>
                 <th scope="col">#</th>
                 <!--<th scope="col">Mension</th>-->
-                <th scope="col">{% trans trimmed %}PV{% endtrans %}</th>
-                <th scope="col">{% trans trimmed %}Prénom et nom{% endtrans %}</th>
-                <th scope="col">{% trans trimmed %}Lycée{% endtrans %}</th>
+                <th scope="col">PV</th>
+                <th scope="col">Prénom et nom</th>
+                <th scope="col">Lycée</th>
               </tr>
             </thead>
             <tbody>
@@ -200,4 +261,26 @@ Session Fria 2019
     </div>
   </div>
 </section>
-{% endblock %}
+
+
+<br />
+
+
+
+  <!-- Footer -->
+  <footer class="py-5 bg-black">
+    <div class="container">
+      <p class="m-0 text-center text-white small">Copyright &copy; gncode.org 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/js/gncode.js"></script>
+
+</body>
+
+</html>

@@ -18,7 +18,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>{% block title %}{% endblock %} - GNCode</title>
+  <title>Salématou Dramé - GNCode</title>
 
   <!-- Bootstrap core CSS -->
   <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -38,7 +38,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
     <div class="container">
       <!-- <a class="navbar-brand" href="/">GNCode</a> -->
-      <a class="navbar-brand" href="/{{lang}}/index.html">
+      <a class="navbar-brand" href="/en/index.html">
         <img src="/img/gncode_logo.png" style="height: 40px;"/>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,15 +48,15 @@
         <ul class="navbar-nav ml-auto">
 
           <li class="nav-item">
-            <a class="nav-link" href="/{{lang}}/sessions/fria1219/index.html">{% trans trimmed %}Sessions{% endtrans%}</a>
+            <a class="nav-link" href="/en/sessions/fria1219/index.html">Sessions</a>
           </li>
           
           <li class="nav-item">
-            <a class="nav-link" href="/{{lang}}/news.html">{% trans trimmed %}News{% endtrans %}</a>
+            <a class="nav-link" href="/en/news.html">News</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="/{{lang}}/about.html">{% trans trimmed %}A propos{% endtrans %}</a>
+            <a class="nav-link" href="/en/about.html">About</a>
           </li>
 
 
@@ -76,19 +76,62 @@
     </div>
   </nav>
 
-  {% block head %}
   
-  {% endblock %}
+<header class="gncode-header">
+  <div class="gncode-header-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-8">
+            <h1 class="gncode-header-heading">Salématou Dramé</h1>
+            <p>
+                Je m'appelle Salématou Dramé, j'ai 20 ans. je suis élève apprenante au lycée Amilcar Cabral en 11ème Sciences Sociales.
+                Ma matière préférée est le Français et les activités que j'aime faire en dehors de l'école sont la lecture et le sport.
+            </p>
+            <p>
+                Je rêve d'être ingénieur logiciel en plus d'être journaliste informée et talentueuse. 
+            </p>    
+            <p> Ce qui me différencie des autres qui sont autour de moi, c'est que pour la première fois de ma    vie j'apprends à programmer et je connais ce que c'est que la programmation chose que la plus part autour de moi ne connaissent et n'ont pas eut l'occasion d'apprendre et faire, et en plus j'ai eu un professeur qui est est disponible à tout moment pour les questions en informatique, la progarmmation.
+            </p>
+            <p>
+                Ce qui me faciliterait l'apprentissage en informatique serait d'avoir un ordinateur à la maison et trouvé une personne pour me guider.
+            </p> 
+            <p>
+                Enfin la personne qui m'inspire le plus au monde est mon professeur parce qu'il me donne le savoir et il me guide dans la vie. 
+            </p>
+        </div>
+        <div class="col-4">
+            <img src="/img/gncode_fria_19/students/salematou.png" class="img-fluid rounded-circle profile-picture" alt="Bobo" />
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
 
 
-  {% block body %}
+
   
+<section>
+  <div class="container">
+    <div class="row align-items-center">
+      
+      
+      <div class="col-lg-12">
+        <h2 class="gncode-header-subheading"></h2>
+        <p>
+        </p>
 
-{% endblock %}
+        
+      </div>
+
+      
+    </div>
+  </div>
+</section>
+
 
 <br />
 
-{% block footer %}
+
 
   <!-- Footer -->
   <footer class="py-5 bg-black">
@@ -97,7 +140,7 @@
     </div>
     <!-- /.container -->
   </footer>
-{% endblock %}
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="/vendor/jquery/jquery.min.js"></script>

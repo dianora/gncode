@@ -18,7 +18,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>{% block title %}{% endblock %} - GNCode</title>
+  <title> News  - GNCode</title>
 
   <!-- Bootstrap core CSS -->
   <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -38,7 +38,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
     <div class="container">
       <!-- <a class="navbar-brand" href="/">GNCode</a> -->
-      <a class="navbar-brand" href="/{{lang}}/index.html">
+      <a class="navbar-brand" href="/fr/index.html">
         <img src="/img/gncode_logo.png" style="height: 40px;"/>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,15 +48,15 @@
         <ul class="navbar-nav ml-auto">
 
           <li class="nav-item">
-            <a class="nav-link" href="/{{lang}}/sessions/fria1219/index.html">{% trans trimmed %}Sessions{% endtrans%}</a>
+            <a class="nav-link" href="/fr/sessions/fria1219/index.html">Sessions</a>
           </li>
           
           <li class="nav-item">
-            <a class="nav-link" href="/{{lang}}/news.html">{% trans trimmed %}News{% endtrans %}</a>
+            <a class="nav-link" href="/fr/news.html">News</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="/{{lang}}/about.html">{% trans trimmed %}A propos{% endtrans %}</a>
+            <a class="nav-link" href="/fr/about.html">A propos</a>
           </li>
 
 
@@ -76,19 +76,48 @@
     </div>
   </nav>
 
-  {% block head %}
   
-  {% endblock %}
+<header class="gncode-header">
+    <div class="gncode-header-content">
+      <div class="container">
+        <h1 class="gncode-header-heading">GNCode dans les news</h1>
+      </div>
+    </div>
+  </header>
 
 
-  {% block body %}
+
   
+<section>
+    <div class="container">
 
-{% endblock %}
+      <div class="row">
+          <div class="col-12">
+            <h3>2019-12-28 Espace TV</h3>
+          </div>
+
+          <div class="col-4">
+            <p>
+              Couverture de Espace TV sur la session de formation 'Initiation à la programmation et au langage Java' qui a eu lieu à Fria en Décembre 2019.
+            </p>
+          </div>
+
+          <div class="col-8">
+              <div class="embed-responsive embed-responsive-16by9">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/ycOVbnqFnX4?start=506&end=686" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+          </div>
+      </div>
+
+
+    </div>
+</section>
+
+
 
 <br />
 
-{% block footer %}
+
 
   <!-- Footer -->
   <footer class="py-5 bg-black">
@@ -97,7 +126,7 @@
     </div>
     <!-- /.container -->
   </footer>
-{% endblock %}
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="/vendor/jquery/jquery.min.js"></script>

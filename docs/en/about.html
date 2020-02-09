@@ -1,19 +1,93 @@
-{% extends "master.html" %}
+<!DOCTYPE html>
+<html lang="en">
 
-{% block title%}{% trans trimmed%}A propos de GNCode{% endtrans %}{% endblock%}
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154447004-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-{% block head %}
+    gtag('config', 'UA-154447004-1');
+  </script>
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>About GNCode - GNCode</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="/css/one-page-wonder.min.css?v=20200209-03" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+    <div class="container">
+      <!-- <a class="navbar-brand" href="/">GNCode</a> -->
+      <a class="navbar-brand" href="/en/index.html">
+        <img src="/img/gncode_logo.png" style="height: 40px;"/>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="/en/sessions/fria1219/index.html">Sessions</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/en/news.html">News</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/en/about.html">About</a>
+          </li>
+
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img style="height: 20px;" src="/img/language_icon/wimimedia_lang_grey.png" />
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" data-gncode-lang='fr'>Français</a>
+              <a class="dropdown-item" data-gncode-lang='en'>English</a>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  
 <header class="gncode-header">
     <div class="gncode-header-content">
       <div class="container">
-        <h1 class="gncode-header-heading">{%trans trimmed %}A propos de GNCode{% endtrans %}</h1>
+        <h1 class="gncode-header-heading">About GNCode</h1>
       </div>
     </div>
   </header>
-{% endblock %}
 
 
-{% block body %}
+
+  
 <section>
 
 
@@ -22,36 +96,30 @@
       <div class="row">
 
         <div class="col-6">
-            <h1 class='title'>{% trans trimmed%}Vision{% endtrans %}</h1>
+            <h1 class='title'>Vision</h1>
             <p class="text-justify lead">
-              {% trans trimmed %}
-              Transformer la Guinée en une nation qui participe à la révolution numérique
-              de manière productive, responsable et bénéfique pour le développement humain, social et économique.
-              {% endtrans %}
+              To transform Guinea into a nation that participates in the digital revolution in ways that are  productive, responsible and beneficial for human, social and economic development.
             </p>
         </div>
 
         <div class="col-6">
-            <h1 class='title'>{% trans trimmed %}Mission{% endtrans %}</h1>
+            <h1 class='title'>Mission</h1>
             <p class="text-justify lead">
-                {% trans trimmed %}
-                Préparer les Guinéens à confronter les défis et à saisir les opportunités 
-                inhérentes à la révolution numérique.
-                {% endtrans %}
+                To prepare Guineans to face the challenges and seize the opportunities inherent in the digital revolution.
             </p>
         </div>
 
         
 
         <div class="col-12">
-            <h1 class='title'>{% trans trimmed %}Stratégie{% endtrans %}</h1>
+            <h1 class='title'>Strategy</h1>
             <div class="accordion" id="strategyAccordion">
                 <!-- Strategy 1-->
                 <div class="card">
                   <div class="card-header" id="heading1">
                     <h2 class="mb-0">
                       <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                          <span class="lead">{% trans trimmed %}Augmenter la disponibilité et le niveau des compétences informatiques en Guinée{% endtrans %}</span>
+                          <span class="lead">Increase the availability and levels of computer science skills in Guinea</span>
                       </button>
                     </h2>
                   </div>
@@ -61,27 +129,16 @@
                       <span class="display-4 float-right">👩🏽‍💻</span>
                       <ul>
                           <li class="lead">
-                            {% trans trimmed %}
-                            Développer des curriculums d'enseignements de l'informatique 
-                            adaptés aux different niveaux académiques et professionnels en Guinée.
-                            {% endtrans %}
+                            Develop computer science teaching curriculua adapted to various academic and professional levels in Guinea.
                           </li>
                           <li class="lead">
-                            {% trans trimmed %}
-                            Organiser des campagnes de formation en informatique pour des élèves, 
-                            étudiants, enseignants et professionels.
-                            {% endtrans %}
+                            Organize computer science teaching campaigns for students, teachers and professionals.
                           </li>
                           <li class="lead">
-                            {% trans trimmed %}
-                            Promouvoir l'enseignement de l'informatique dès le plus jeune âge.
-                            {% endtrans %}
+                            Promote the teaching of computer science from an early age.
                           </li>
                           <li class="lead">
-                            {% trans trimmed %}
-                            Servir d'appui à l'adoption des programmes d'enseignement de l'informatique par 
-                            les écoles, les universités et les centres professionnels.
-                            {% endtrans %}
+                            Provide support for the adoption of computer science education programs by schools, universities and professional centers.
                           </li>
                       </ul>
                     </div>
@@ -94,9 +151,7 @@
                     <h2 class="mb-0">
                       <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
                           <span class="lead">
-                            {% trans trimmed %}
-                            Rendre les outils d'apprentissage informatique omniprésents.
-                            {% endtrans %}
+                            Make computer science learning tools ubiquitous.
                           </span>
                       </button>
                     </h2>
@@ -107,14 +162,10 @@
                       <span class="display-4 float-right">🖥️</span>
                       <ul>
                           <li class="lead">
-                            {% trans trimmed %}
-                            Créer et exploiter des centres d'apprentissage GNCodePark dans chaque préfecture de Guinée.
-                            {% endtrans %}
+                            Create and operate GNCodePark learning centers in each prefecture of Guinea.
                           </li>
                           <li class="lead">
-                            {% trans trimmed %}
-                            Développer des solutions pour outils d'apprentissage adaptés au contexte guinéen et servir d'appui à leur adoption.
-                            {% endtrans %}
+                            Develop solutions for learning tools adapted to the Guinean context and support their adoption.
                           </li>
                       </ul>
                     </div>
@@ -128,9 +179,7 @@
                     <h2 class="mb-0">
                       <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
                           <span class="lead">
-                            {% trans trimmed %}
-                            Encourager l'utilisation productive et bénéfique des outils technologiques
-                            {% endtrans %}
+                            Encourage the productive and beneficial use of technology
                           </span>
                       </button>
                     </h2>
@@ -141,19 +190,13 @@
                       <span class="display-4 float-right">🕊️</span>
                       <ul>
                           <li class="lead">
-                            {% trans trimmed %}
-                            Sensibiliser les Guinéens aux opportunités et défis liés aux tendances technologiques.
-                            {% endtrans %}
+                            Sensitize Guineans to the opportunities and pitfalls linked to technological trends.
                           </li>
                           <li class="lead">
-                            {% trans trimmed %}
-                            Promouvoir les outils technologiques contribuant positivement au développement humain, social et économique en Guinée.
-                            {% endtrans %}
+                            Promote technological tools contributing positively to human, social and economic development in Guinea.
                           </li>
                           <li class="lead">
-                            {%trans trimmed %}
-                            Conseiller les autorités guinéennes dans la mise en œuvre des politiques liées aux technologies de l'information.
-                            {% endtrans %}
+                            Advise Guinean authorities in the implementation of policies related to information technology.
                           </li>
                       </ul>
                     </div>
@@ -168,9 +211,7 @@
                     <h2 class="mb-0">
                       <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
                           <span class="lead">
-                            {% trans trimmed %}
-                            Développer le secteur technologique en Guinée
-                            {% endtrans %}
+                            Develop the technology sector in Guinea
                           </span>
                       </button>
                     </h2>
@@ -181,20 +222,13 @@
                     <div class="card-body">
                       <ul>
                           <li class="lead">
-                            {% trans trimmed %}
-                            Créer de l'emploi dans le secteur technologique.
-                            {% endtrans %}
+                            Create jobs in the technology sector.
                           </li>
                           <li class="lead">
-                            {% trans trimmed %}
-                            Créer des centres d'incubation d'entreprises technologiques.
-                            {% endtrans %}
+                            Create tech startup incubators.
                           </li>
                           <li class="lead">
-                            {% trans trimmed %}
-                            Inspirer les entrepreneurs guinéens à créer des produits et services technologiques 
-                            valeureux pour la Guinée, pour l'Afrique et pour le monde entier.
-                            {% endtrans %}
+                            Inspire Guinean entrepreneurs to create valuable technological products and services for Guinea, for Africa and for the whole world.
                           </li>
                       </ul>
                     </div>
@@ -208,9 +242,7 @@
                     <h2 class="mb-0">
                       <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
                           <span class="lead">
-                            {% trans trimmed %}
-                            Permettre des interactions naturelles avec des produits technologiques en langues guinéennes
-                            {% endtrans %}
+                            Enable natural interactions with technological products in Guinean languages
                           </span>
                       </button>
                     </h2>
@@ -221,24 +253,16 @@
                       <span class="display-4 float-right">🇬🇳</span>
                       <ul>
                           <li class="lead">
-                            {% trans trimmed %}
-                            Conduire des projets de recherche dans le domaine du traitement automatique des langues guinéennes et africaines.
-                            {% endtrans %}
+                            Conduct research projects in the area of Natural Language Processing of Guinean and African languages.
                           </li>
                           <li class="lead">
-                            {% trans trimmed %}
-                            Créer des solutions qui permettent des interactions naturelles avec des systèmes intelligents dans les langues guinéennes.
-                            {% endtrans %}
+                            Create solutions that allow natural interactions with intelligent systems in Guinean languages.
                           </li>
                           <li class="lead">
-                            {% trans trimmed %}
-                            Combler le fossé entre l'analphabétisme et l'accès à l'information et aux produits et services technologiques.
-                            {% endtrans %}
+                            Bridge the gap between illiteracy and access to information and technological products and services.
                           </li>
                           <li class="lead">
-                            {% trans trimmed %}
-                            Utilisez la technologie pour réduire l'analphabétisme.
-                            {% endtrans %}
+                            Use technology to reduce illiteracy.
                           </li>
                       </ul>
                     </div>
@@ -251,9 +275,7 @@
                     <h2 class="mb-0">
                       <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
                           <span class="lead">
-                            {% trans trimmed %}
-                            Entreprendre des collaborations synergiques
-                            {% endtrans %}
+                            Undertake synergistic collaborations
                           </span>
                       </button>
                     </h2>
@@ -264,9 +286,7 @@
                       <span class="display-4 float-right">🤝</span>
                       <ul>
                           <li class="lead">
-                            {% trans trimmed %}
-                            Entreprendre des projets joints avec des organisations qui ont des missions compatibles avec celles de GNCode.  
-                            {% endtrans %}   
+                            Undertake joint projects with organizations whose missions are compatible with those of GNCode.   
                           </li>
                       </ul>
                     </div>
@@ -331,4 +351,26 @@
     </div>
 </section>
 
-{% endblock %}
+
+
+<br />
+
+
+
+  <!-- Footer -->
+  <footer class="py-5 bg-black">
+    <div class="container">
+      <p class="m-0 text-center text-white small">Copyright &copy; gncode.org 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/js/gncode.js"></script>
+
+</body>
+
+</html>

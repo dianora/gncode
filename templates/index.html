@@ -1,7 +1,7 @@
 {% extends "master.html" %}
 
 {% block title %}
-Accueil
+{% trans trimmed %}Accueil{% endtrans %}
 {% endblock %}
 
 {% block head %}
@@ -9,9 +9,9 @@ Accueil
     <div class="masthead-content">
         <div class="container">
         <h1 class="masthead-heading mb-0">GNCode</h1>
-        <h2 class="masthead-subheading mb-0">Préparer les Guinéens pour la révolution numérique.</h2>
+        <h2 class="masthead-subheading mb-0">{% trans %}Préparer les Guinéens pour la révolution numérique.{% endtrans %}</h2>
         
-        <a href="sessions/fria1219/index.html" class="btn btn-primary btn-xl rounded-pill mt-5">Sessions et Candidats</a>
+        <a href="sessions/fria1219/index.html" class="btn btn-primary btn-xl rounded-pill mt-5">{% trans trimmed %}Sessions et Candidats{% endtrans %}</a>
         </div>
     </div>
     <div class="bg-circle-1 bg-circle"></div>
@@ -29,13 +29,13 @@ Accueil
         <div class="p-5">
         <!-- <img class="img-fluid rounded-circle" src="img/01.jpg" alt=""> -->
         <!-- <img class="img-fluid rounded-circle" src="img/woman-server-technology.jpg" alt=""> -->
-        <img class="img-fluid rounded-circle" src="img/gncode_fria_19/delphine_focused_small.png" alt="" />
+        <img class="img-fluid rounded-circle" src="/img/gncode_fria_19/delphine_focused_small.png" alt="" />
         </div>
     </div>
     <div class="col-lg-6 order-lg-1">
         <div class="p-5">
-        <h2 class="display-4">Saisir l'opportunité technologique</h2>
-        <p>Notre objectif est de préparer la future génération d'informaticiens Guinéens prête à confronter les défis et à saisir les opportunités inhérentes au futur hautement technologique auquel nous sommes inévitablement destinés.</p>
+        <h2 class="display-4">{% trans trimmed %}Saisir l'opportunité technologique{% endtrans %}</h2>
+        <p>{% trans trimmed %} Notre objectif est de préparer la future génération d'informaticiens Guinéens prête à confronter les défis et à saisir les opportunités inhérentes au futur hautement technologique auquel nous sommes inévitablement destinés.{% endtrans %}</p>
         </div>
     </div>
     </div>
@@ -48,15 +48,17 @@ Accueil
     <div class="col-lg-6">
         <div class="p-5">
         <!-- <img class="img-fluid rounded-circle" src="img/woman-coding.jpg" alt="" /> -->
-        <img class="img-fluid rounded-circle" src="img/gncode_fria_19/pathe_coding_small.png" alt="" />
+        <img class="img-fluid rounded-circle" src="/img/gncode_fria_19/pathe_coding_small.png" alt="" />
         </div>
     </div>
     <div class="col-lg-6">
         <div class="p-5">
-        <h2 class="display-4">Apprendre à programmer</h2>
+        <h2 class="display-4">{% trans trimmed %}Apprendre à programmer{% endtrans %}</h2>
         <p>
+            {% trans trimmed %}
             Nos programmes de formation incluent des curriculums tels que <a href="https://guinea.csbridge.org/fr/index.html">CSBridge</a>,
             un excellent curriculum d'initiation à la programmation informatique basé sur des techniques pédagogiques utilisées a l'université de Stanford depuis plus de 20 ans. 
+            {% endtrans %}
         </p>
         </div>
     </div>
@@ -70,16 +72,18 @@ Accueil
     <div class="col-lg-6 order-lg-2">
         <div class="p-5">
         <!-- <img class="img-fluid rounded-circle" src="img/software-engineer-at-work.jpg" alt="" /> -->
-        <img class="img-fluid rounded-circle" src="img/gncode_fria_19/programming_practice_small.png" alt="" />
+        <img class="img-fluid rounded-circle" src="/img/gncode_fria_19/programming_practice_small.png" alt="" />
         </div>
     </div>
     <div class="col-lg-6 order-lg-1">
         <div class="p-5">
-        <h2 class="display-4">En voie vers une Guinée plus productive et technologique</h2>
+        <h2 class="display-4">{% trans trimmed %}En voie vers une Guinée plus productive et technologique{% endtrans %}</h2>
         <p>
+            {% trans trimmed %}
             Dans les années qui suivent, nous voudrons: Intensifier l'éducation en informatique en Guinée, 
             construire et faire fonctionner des centres d'apprentissage dans toutes les préfectures de la Guinée, 
             et former des enseignants, des élèves et des professionels prêts pour le marché de l'emploi.
+            {% endtrans %}
         </p>
         </div>
     </div>

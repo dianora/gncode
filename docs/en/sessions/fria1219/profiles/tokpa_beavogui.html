@@ -18,7 +18,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>{% block title %}{% endblock %} - GNCode</title>
+  <title>Tokpa Béavogui - GNCode</title>
 
   <!-- Bootstrap core CSS -->
   <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -38,7 +38,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
     <div class="container">
       <!-- <a class="navbar-brand" href="/">GNCode</a> -->
-      <a class="navbar-brand" href="/{{lang}}/index.html">
+      <a class="navbar-brand" href="/en/index.html">
         <img src="/img/gncode_logo.png" style="height: 40px;"/>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,15 +48,15 @@
         <ul class="navbar-nav ml-auto">
 
           <li class="nav-item">
-            <a class="nav-link" href="/{{lang}}/sessions/fria1219/index.html">{% trans trimmed %}Sessions{% endtrans%}</a>
+            <a class="nav-link" href="/en/sessions/fria1219/index.html">Sessions</a>
           </li>
           
           <li class="nav-item">
-            <a class="nav-link" href="/{{lang}}/news.html">{% trans trimmed %}News{% endtrans %}</a>
+            <a class="nav-link" href="/en/news.html">News</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="/{{lang}}/about.html">{% trans trimmed %}A propos{% endtrans %}</a>
+            <a class="nav-link" href="/en/about.html">About</a>
           </li>
 
 
@@ -76,19 +76,64 @@
     </div>
   </nav>
 
-  {% block head %}
   
-  {% endblock %}
+<header class="gncode-header">
+  <div class="gncode-header-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-8">
+            <h1 class="gncode-header-heading">Tokpa Béavogui</h1>
+              <p> Je m'appelle Tokpa Béavogui, je suis élève de la 11ème Sciences Mathématiques au Complexe Scolaire Catholique Christ_Roi de Fria et j'ai 19 ans.
+                  A l'école,j'adore faire les mathématiques et la physique.
+                </p>
+              <p>
+                  En dehors de l'école, je pratique le foot_ball.
+              </p>
+              <p>
+                  Les choses que j'aime dans ma vie sont les suivantes : apprendre, découvrir et explorer.
+                  Après mes études, j'aimerais devenir ingénieur logiciel (developpement en intelligence artificielle) .
+                  Pour y arriver, j'aurais bésoin du soutien de ma famille, d'un ordinateur et des encadreurs durant mon apprentissage.
+              </p>
+              <p> 
+                La personne qui m'inspire le plus au monde est Bill Gates,pour son esprit créatif dans le domaine informatique et pour l'influence de sa compagnie de logiciels. Et je compte devenir plus que lui.
+              </p>
+              <p> 
+                Enfin mon idole est mon instituteur monsieur Doumbouya Moussa ( celui qui m'a ouvert le chemin d'un autre domaine de la vie qui est l'informatique plus précisément la programmation).
+              </p>
+        </div>
+        <div class="col-4">
+            <img src="/img/gncode_fria_19/students/tokpa.png" class="img-fluid rounded-circle profile-picture" alt="Bobo" />
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
 
 
-  {% block body %}
+
   
+<section>
+  <div class="container">
+    <div class="row align-items-center">
+      
+      
+      <div class="col-lg-12">
+        <h2 class="gncode-header-subheading"></h2>
+        <p>
+        </p>
 
-{% endblock %}
+        
+      </div>
+
+      
+    </div>
+  </div>
+</section>
+
 
 <br />
 
-{% block footer %}
+
 
   <!-- Footer -->
   <footer class="py-5 bg-black">
@@ -97,7 +142,7 @@
     </div>
     <!-- /.container -->
   </footer>
-{% endblock %}
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="/vendor/jquery/jquery.min.js"></script>
